@@ -1,0 +1,1 @@
+export type { IThreatProvider } from "../../contracts/IThreatProvider";

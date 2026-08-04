@@ -1,0 +1,28 @@
+{
+  "name": "@iaeasy/guardian-core",
+  "version": "1.0.0",
+  "description": "Guardian Core — independent, product-agnostic engineering intelligence platform for the IAeasy portfolio",
+  "type": "module",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./sdk": "./sdk/index.ts",
+    "./public-api": "./public-api/index.ts"
+  },
+  "files": [
+    "**/*"
+  ],
+  "keywords": ["guardian", "iaeasy", "observability", "engineering-intelligence"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ararunaf/guardian-core.git"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react": { "optional": true }
+  }
+}

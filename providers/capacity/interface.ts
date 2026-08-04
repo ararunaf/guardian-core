@@ -1,0 +1,1 @@
+export type { ICapacityProvider } from "../../contracts/ICapacityProvider";

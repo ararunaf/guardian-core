@@ -1,0 +1,1 @@
+export type { IPredictionProvider } from "../../contracts/IPredictionProvider";
