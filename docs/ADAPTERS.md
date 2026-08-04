@@ -1,8 +1,14 @@
-# Adapters
+﻿# Adapters
 
 ## Role
 
 Bridge a product into Guardian without polluting Core with product code.
+
+## Official guide (GAI-08C)
+
+**Full Adapter Development Guide:** [`GAI08C_ADAPTER_GUIDE.md`](./GAI08C_ADAPTER_GUIDE.md)
+
+Related ADR: [`adr/ADR-003-adapter-pattern.md`](./adr/ADR-003-adapter-pattern.md)
 
 ## Core modules
 

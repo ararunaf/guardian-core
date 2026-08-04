@@ -1,6 +1,6 @@
 /**
- * Guardian Version Manifest (GAI-08B).
- * Official versioning surface for Core publication.
+ * Guardian Version Manifest (GAI-08C).
+ * Official versioning surface for Core Enterprise Release 1.0.0.
  * Governance-only: does not alter engine behavior.
  */
 
@@ -10,8 +10,8 @@ export const GUARDIAN_COMPATIBILITY_VERSION = "1.0.0" as const;
 export const GUARDIAN_SCHEMA_VERSION = "1.0.0" as const;
 export const GUARDIAN_PLUGIN_VERSION = "1.0.0" as const;
 export const GUARDIAN_ADAPTER_VERSION = "1.0.0" as const;
-export const GUARDIAN_BUILD_VERSION = "1.0.0+gai08b" as const;
-export const GUARDIAN_CERTIFICATION_VERSION = "GAI-08B" as const;
+export const GUARDIAN_BUILD_VERSION = "1.0.0+gai08c" as const;
+export const GUARDIAN_CERTIFICATION_VERSION = "GAI-08C" as const;
 
 export interface GuardianVersionManifest {
   readonly coreVersion: typeof GUARDIAN_CORE_VERSION;

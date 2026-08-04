@@ -1,6 +1,12 @@
-# Plugins
+﻿# Plugins
 
 Infrastructure ready at **1.0.0**: Registry, Loader, Descriptor, Manifest, Version, Compatibility, Metadata.
+
+## Official guide (GAI-08C)
+
+**Full Plugin Development Guide:** [`GAI08C_PLUGIN_GUIDE.md`](./GAI08C_PLUGIN_GUIDE.md)
+
+Related ADR: [`adr/ADR-004-plugin-model.md`](./adr/ADR-004-plugin-model.md)
 
 ## Status
 

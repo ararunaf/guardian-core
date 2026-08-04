@@ -3,8 +3,8 @@
  */
 
 export const GUARDIAN_FOUNDATION_VERSION = "1.0.0" as const;
-export const GUARDIAN_SPRINT_ID = "GAI-08B" as const;
-export const GUARDIAN_SPRINT_NAME = "Guardian Core Publication" as const;
+export const GUARDIAN_SPRINT_ID = "GAI-08C" as const;
+export const GUARDIAN_SPRINT_NAME = "Guardian Core Stabilization & Publication" as const;
 
 export type GuardianStatus =
   | "foundation_ready"
@@ -152,6 +152,7 @@ export type GuardianRoadmapSprintId =
   | "GAI-08"
   | "GAI-08A"
   | "GAI-08B"
+  | "GAI-08C"
   | "GAI-09"
   | "GAI-10"
   | "GAI-11"

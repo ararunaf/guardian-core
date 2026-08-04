@@ -1,5 +1,5 @@
 ﻿/**
- * Guardian AI official roadmap (GAI-08B).
+ * Guardian AI official roadmap (GAI-08C).
  */
 
 import type { GuardianRoadmapSprintId } from "./types";
@@ -22,6 +22,7 @@ export const GUARDIAN_ROADMAP: readonly GuardianRoadmapEntry[] = [
   { id: "GAI-08", name: "Engineering Knowledge Platform", status: "done" },
   { id: "GAI-08A", name: "Guardian Core Extraction", status: "done" },
   { id: "GAI-08B", name: "Guardian Core Publication", status: "done" },
+  { id: "GAI-08C", name: "Guardian Core Stabilization & Publication", status: "done" },
   { id: "GAI-09", name: "Software Architecture Specialist", status: "planned" },
   { id: "GAI-10", name: "Patch Generator", status: "planned" },
   { id: "GAI-11", name: "Test Guardian", status: "planned" },

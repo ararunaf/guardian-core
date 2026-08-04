@@ -1,5 +1,5 @@
 /**
- * Guardian Enterprise Dashboard (GAI-08B).
+ * Guardian Enterprise Dashboard (GAI-08C).
  * Engineering Observability + Core Publication (SDK / Adapters / Plugins / Compatibility).
  * Internal Guardian surface only. Not wired into Navigation/Composition Root.
  * Displays investigation results. Executes no actions.
@@ -15,7 +15,7 @@ export function GuardianEnterpriseDashboard() {
   return (
     <section
       data-module="guardian-enterprise-dashboard"
-      data-sprint="GAI-08B"
+      data-sprint="GAI-08C"
       data-readonly="true"
       aria-label="Guardian AI Engineering Observability Center"
     >

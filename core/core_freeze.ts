@@ -1,5 +1,5 @@
 /**
- * Guardian Core Freeze inventory (GAI-08A freeze / GAI-08B publication).
+ * Guardian Core Freeze inventory (GAI-08A freeze / GAI-08C stabilization).
  * Audits ownership: Core / SuperContab / Shared / SDK candidates.
  * No runtime behavior changes.
  */
@@ -56,7 +56,7 @@ export const GUARDIAN_CORE_FREEZE_INVENTORY: readonly GuardianFreezeEntry[] = [
 
 export interface GuardianCoreFreezeSnapshot {
   readonly frozen: true;
-  readonly sprintId: "GAI-08B";
+  readonly sprintId: "GAI-08C";
   readonly coreEntries: number;
   readonly supercontabEntries: number;
   readonly sharedEntries: number;
@@ -68,7 +68,7 @@ export function describeGuardianCoreFreeze(): GuardianCoreFreezeSnapshot {
   const inventory = GUARDIAN_CORE_FREEZE_INVENTORY;
   return {
     frozen: true,
-    sprintId: "GAI-08B",
+    sprintId: "GAI-08C",
     coreEntries: inventory.filter((e) => e.ownership === "guardian_core").length,
     supercontabEntries: inventory.filter((e) => e.ownership === "supercontab").length,
     sharedEntries: inventory.filter((e) => e.ownership === "shared").length,
